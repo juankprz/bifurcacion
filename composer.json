@@ -13,21 +13,21 @@
     },
     "autoload": {
         "psr-4": {
-            "Juankprz\\Bifurcacion\\": "src/"
+            "Caffeinated\\Shinobi\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Juankprz\\Bifurcacion\\Tests\\": "tests/"
+            "Caffeinated\\Shinobi\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Juankprz\\Bifurcacion\\ShinobiServiceProvider"
+                "Caffeinated\\Shinobi\\ShinobiServiceProvider"
             ],
             "aliases": {
-                "Shinobi": "Juankprz\\Bifurcacion\\Facades\\Shinobi"
+                "Shinobi": "Caffeinated\\Shinobi\\Facades\\Shinobi"
             }
         }
     },
