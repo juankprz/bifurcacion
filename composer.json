@@ -1,5 +1,5 @@
 {
-    "name": "caffeinated/bifurcacionshinobi",
+    "name": "juankprz/bifurcacionshinobi",
     "description": "Laravel Roles and Permissions",
     "keywords": ["shinobi", "roles", "permissions", "auth", "laravel", "caffeinated"],
     "license": "MIT",
@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Juankprz\\Bifurcacion\\\ShinobiServiceProvider"
+                "Juankprz\\Bifurcacion\\ShinobiServiceProvider"
             ],
             "aliases": {
                 "Shinobi": "Juankprz\\Bifurcacion\\Facades\\Shinobi"
